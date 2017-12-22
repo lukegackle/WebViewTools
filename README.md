@@ -9,14 +9,10 @@ Example Block diagram:
 ![Blocks](https://github.com/hwasiti/WebViewTools/raw/master/Blocks.png)
 
 ![aia file](https://github.com/hwasiti/WebViewTools/raw/master/test9.aia)
-
 ![apk file](https://github.com/hwasiti/WebViewTools/raw/master/test9.apk)
 
-Created by Luke Gackle 
-
-Version5 by Haider Alwasiti
-
 For more details how to use the extension:
-
 http://thunkableblocks.blogspot.my/2017/06/webviewtools-extension-for-app-inventor.html
 
+Created by Luke Gackle 
+Version5 by Haider Alwasiti
