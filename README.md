@@ -13,6 +13,10 @@ Example Block diagram:
 ![apk file](https://github.com/hwasiti/WebViewTools/raw/master/test9.apk)
 
 Created by Luke Gackle 
+
 Version5 by Haider Alwasiti
 
-thunkableblocks.blogspot.com
+For more details how to use the extension:
+
+![http://thunkableblocks.blogspot.my/2017/06/webviewtools-extension-for-app-inventor.html](http://thunkableblocks.blogspot.my/2017/06/webviewtools-extension-for-app-inventor.html)
+
