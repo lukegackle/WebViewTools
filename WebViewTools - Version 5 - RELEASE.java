@@ -7,7 +7,7 @@ This extension provides access to a number of methods for the WebViewer componen
 Created by: Luke Gackle
 
 Other Contributors:
--
+-Version 5 by Haider Alwasiti
 
 Website: thunkableblocks.blogspot.com
 
