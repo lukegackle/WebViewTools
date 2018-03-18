@@ -184,6 +184,16 @@ public void RunJavaScript(String js){
 	}
 }
 
+@SimpleFunction(description="Loads the given data into this WebView, using baseUrl as the base URL for the content. The base URL is used both to resolve relative URLs and when applying JavaScript's same origin policy. The historyUrl is used for the history entry. More details and an example here: https://stackoverflow.com/a/8369422/1970830")
+public void LoadDataWithBaseURL(String baseUrl, 
+                String data, 
+                String mimeType, 
+                String encoding, 
+                String historyUrl){
+	webview.loadDataWithBaseURL( baseUrl, data, mimeType, encoding, historyUrl);
+
+}
+
 @SimpleEvent (description="Returns the output of the executed JavaScript. This event will only fire on Android KitKat or newer.")
 public void OnJavaScriptOutput(String output){
 	EventDispatcher.dispatchEvent(this, "OnJavaScriptOutput", output);
