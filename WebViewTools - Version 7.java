@@ -169,6 +169,11 @@ public int GetTextZoom(){
 	return settings.getTextZoom();
 }
 
+@SimpleFunction(description="Gets whether media playback requires user gesture in the current WebView.")
+public boolean GetMediaPlaybackRequiresUserGesture(){
+	return settings.getMediaPlaybackRequiresUserGesture();
+}
+
 @SimpleFunction(description="Executes the given JavaScript in the current web viewer.")
 public void RunJavaScript(String js){
 	if(android.os.Build.VERSION.SDK_INT >= android.os.Build.VERSION_CODES.KITKAT){
@@ -204,6 +209,11 @@ public void SetUserAgentString(String useragentstring){
 @SimpleFunction(description="Enables or disables file access within WebView.")
 public void SetAllowFileAccess(boolean allow){
 	settings.setAllowFileAccess(allow);
+}
+
+@SimpleFunction(description="Sets whether media playback requires user gesture within WebView.")
+public void SetMediaPlaybackRequiresUserGesture(boolean require){
+	settings.setMediaPlaybackRequiresUserGesture(require);
 }
 
 @SimpleFunction(description="Sets whether the URL should be checked prior to loading, enabling this will stop the a page from loading if it does not contain the specified URL in the destination URL.")
